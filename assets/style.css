@@ -1,0 +1,11 @@
+header{
+    background-color: black;
+    color: white;
+}
+body{
+    background-color: grey;
+}
+.margin{
+    margin: 0px;
+    grid-template-rows:10px;
+}
