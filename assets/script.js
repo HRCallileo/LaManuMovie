@@ -18,8 +18,9 @@ function getMovie(movie) {
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">${movie.original_title}</h5>
+                  <small>ID: ${movie.id}</small>
                   <p class="card-text">${synopsis}.</p>
-                  <p class="card-vote">${getStarsFromVote(movie.vote_average)}</p>
+                  <p class="card-vote">Notes: ${getStarsFromVote(movie.vote_average)}</p>
                 </div>
               </div>
             </div>
